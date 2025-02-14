@@ -1,0 +1,45 @@
+# Node.js dependencies
+/node_modules/
+
+# TypeScript build output
+/dist/
+/build/
+/tsconfig.tsbuildinfo
+
+# Logs
+*.log
+logs
+*.log.*
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# TypeScript and Jest coverage
+/coverage/
+/jest-coverage/
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker-related files
+.dockerignore
+docker-compose.yml
+
+# IDE and text editor files
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.swp
+*.swo
